@@ -151,6 +151,7 @@ T = (alpha) * T
 secs2 = Timer()
 Sheets("Feuil1").Range("N7").Value = secs2 - secs1
 Loop
+Wend
 End If
 End Sub 
 ```
