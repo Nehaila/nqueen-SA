@@ -6,7 +6,7 @@ Simulated annealing is a metaheuristic used to solve optimization problems. Its 
 This graph below shows the general concept of the simulated annealing metaheuristic that we will adapt to the n-queen puzzle to find a (hopefully) optimal solution. 
 
 
-![alt text](https://github.com/Nehaila/nqueen-simulatedannealing/blob/master/sa.jpg)
+![alt text](https://github.com/Nehaila/nqueen-SA/blob/master/sa.jpg)
 
 To adopt this to the n-queen problem, we start by an initial temperature T that we slowly decrease at the end of each iteration, the candidate solution in this case will mean permuting two columns of the puzzle board, calculating its cost (how many interacting queens we have), if the cost is lower we will keep the solution, else we will decide whether to keep the solution with a probability. 
 The program stops once it finds an optimal solution or once the temperature T reaches 0.
